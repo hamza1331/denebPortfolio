@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import image3 from "../../assets/images/car2.jpg";
+// import image3 from "../../assets/images/car2.jpg";
+import image3 from "../../assets/images/strategy.jpg";
 import ServiceCard from "./ServiceCard";
 
 const title = `Strategy And Research`;

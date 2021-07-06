@@ -7,7 +7,7 @@
 
 .progressTitle span {
   float: right;
-  color: #feb000;
+  color: #F15927;
 }
 .progress {
   overflow: visible;
@@ -21,7 +21,7 @@
   border-radius: 10px;
   /* width: 85%; */
   height: 20px;
-  background-color: #feb000;
+  background-color: #F15927;
   z-index: 1;
 }
 .dot {
@@ -33,7 +33,7 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: #f89e00;
+  background-color: #F15927;
 }
 .dot::after {
   position: absolute;
@@ -43,6 +43,6 @@
   width: 33px;
   height: 33px;
   border-radius: 50%;
-  background-color: #f89e00;
+  background-color: #F15927;
   opacity: 0.3;
 }

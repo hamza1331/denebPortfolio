@@ -10,8 +10,8 @@
   transition: 0.5s;
 }
 .textBox:hover {
-  box-shadow: 2.5px 4.33px 15px 0 #feb000;
-  background-color: #feb000;
+  box-shadow: 2.5px 4.33px 15px 0 #ec693d;
+  background-color: #ec693d;
 }
 * {
   font-family: "Helvetica";
@@ -31,11 +31,11 @@
   height: 75px;
   text-align: center;
   border-radius: 50%;
-  background-image: -ms-linear-gradient(180deg, #ffbd27 0, #feb000 100%);
+  background-image: -ms-linear-gradient(180deg, #ec693d 0, #F15927 100%);
   box-shadow: 2.5px 4.33px 15px 0 rgb(0 0 0 / 15%);
   margin: 0 auto;
   padding-top: 17px;
-  background-color: #feb000;
+  background-color: #F15927;
   text-align: center;
 }
 .icon h3 {
@@ -55,7 +55,7 @@
 }
 .icon::after {
   content: "";
-  background-image: -ms-linear-gradient(180deg, #ffbd27 0, #feb000 100%);
+  background-image: -ms-linear-gradient(180deg, #ec693d 0, #F15927 100%);
   width: 110px;
   height: 110px;
   border-radius: 50%;
@@ -66,7 +66,7 @@
   top: 50%;
   margin-top: -55px;
   margin-left: -55px;
-  background-color: #feb000;
+  background-color: #F15927;
 }
 
 /* .singleExperience:nth-child(odd) .infoBox {
@@ -85,7 +85,7 @@
 }
 .infoBox h6 {
   font-size: 20px;
-  color: #feb000;
+  color: #F15927;
   font-weight: 600;
 }
 .removeDotLine .icon::before {

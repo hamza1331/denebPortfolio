@@ -9,7 +9,7 @@
 }
 
 .serviceCard:hover {
-  border: 3px dashed gold;
+  border: 3px dashed #F15927;
   box-shadow: 0px 2px 16px 6px rgba(199, 195, 195, 0.75);
   -webkit-box-shadow: 0px 2px 16px 6px rgba(199, 195, 195, 0.75);
   -moz-box-shadow: 0px 2px 16px 6px rgba(199, 195, 195, 0.75);

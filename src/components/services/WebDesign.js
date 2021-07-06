@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import image3 from "../../assets/images/woman1.jpg";
+import image3 from "../../assets/images/woman2.jpg";
 import ServiceCard from "./ServiceCard";
 
 const title = `Web Design`;

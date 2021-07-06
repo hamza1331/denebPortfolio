@@ -12,17 +12,17 @@ const ProgressTitleAndPercent = [
   },
   {
     id: "2",
-    title: "Web Design",
+    title: "Web Development",
     percent: "90",
   },
   {
     id: "3",
-    title: "HTML/CSS ",
+    title: "App Development ",
     percent: "80",
   },
   {
     id: "4",
-    title: "Javascript",
+    title: "Graphic Design",
     percent: "70",
   },
 ];

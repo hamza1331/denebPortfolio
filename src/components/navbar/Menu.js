@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { Container, Navbar, Nav } from "react-bootstrap";
-import logo from "../../assets/images/logo.png";
+// import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo-colored.png";
 import "./Navbar.css";
 import styles from "./Menu.module.css";
 export default function Menu() {
@@ -32,9 +33,9 @@ export default function Menu() {
               Portfolio
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/blogs">
+            {/* <Nav.Link as={Link} to="/blogs">
               Blogs
-            </Nav.Link>
+            </Nav.Link> */}
 
             <Nav.Link as={Link} to="/contact">
               Contact Us

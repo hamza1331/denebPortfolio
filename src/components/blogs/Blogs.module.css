@@ -20,7 +20,8 @@
   text-decoration: none;
 }
 .bgText {
-  color: orange;
+  /* color: orange; */
+  color: #F15927;
   display: block;
 }
 .textClip {

@@ -6,7 +6,8 @@
   font-size: 3vmin;
 }
 .h1 span {
-  color: orange;
+  /* color: orange; */
+  color: #F15927;
   font-weight: 700;
 }
 .buttonHire {
@@ -19,10 +20,12 @@
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
-  background: orange;
+  /* background: orange; */
+  background: #F15927;
   color: white;
   margin-bottom: 20px;
 }
 .buttonHire:hover {
-  background: #ffb404;
+  /* background: #ffb404; */
+  background: #ec693d;
 }

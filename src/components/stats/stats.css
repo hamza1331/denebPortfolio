@@ -1,0 +1,83 @@
+.section_padding {
+  padding: 100px 0;
+}
+.achievement {
+  padding-bottom: 120px;
+  position: relative;
+  z-index: 1;
+}
+.achievement:after {
+  position: absolute;
+  content: "";
+  right: 25px;
+  top: 40px;
+  background: url(../../assets/images/shape_1.png) no-repeat;
+  background-position: top right;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.achievement_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 9999;
+}
+
+.single_achievement.wow.fadeInUp {
+  width: 214px;
+  height: 214px;
+  border-radius: 50%;
+  box-shadow: 2.5px 4.33px 15px 0 rgb(0 0 0 / 15%);
+  text-align: center;
+  padding-top: 40px;
+  margin-left: 40px;
+  background: #fff;
+  border: 3px dashed white;
+  transition: 0.5s;
+  position: absolute;
+}
+
+
+.single_achievement.wow.fadeInUp:hover {
+  border-color: #f15927;
+  box-shadow: 5px 8.66px 22px 0px rgba(0, 0, 0, 0.15);
+}
+.single_achievement.wow.fadeInUp:nth-child(odd) {
+    top: -200px !important;
+}
+.single_achievement.wow.fadeInUp:nth-child(2) {
+    left: 0;
+}
+.single_achievement.wow.fadeInUp:nth-child(even) {
+  margin-top: 35px;
+  right: 0;
+  top:28px
+}
+.single_achievement.wow.fadeInUp:nth-child(3) {
+  right: 0;
+
+}
+
+
+
+
+
+.single_achievement.wow.fadeInUp h3 {
+  margin-bottom: 5px;
+  color: #f15927;
+  font-weight: 600;
+}
+
+    .single_achievement.wow.fadeInUp .icon {
+  margin-bottom: 15px;
+}
+
+.achievement .section_title h2 {
+  position: relative;
+}
+.achievement .section_title h2:after {
+  left: -10px;
+}

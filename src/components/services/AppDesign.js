@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import image3 from "../../assets/images/tea.jpg";
+import image3 from "../../assets/images/app.jpg";
 import ServiceCard from "./ServiceCard";
 
 const title = `App Design`;

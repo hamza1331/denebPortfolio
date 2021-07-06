@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./Footer.module.css";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo-colored.png";
 export default function Footer() {
   return (
     <>
@@ -35,9 +35,9 @@ export default function Footer() {
               <li>
                 <Link to="/portfolio">Portfolio</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/blogs">Blogs</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/contact">Contact Us</Link>
               </li>
@@ -69,8 +69,8 @@ export default function Footer() {
                   <i className="fas fa-map-marker-alt"></i>
                 </div>
                 <div>
-                  <p>Bhangura </p>
-                  <p>Pabna,Rajshahi,Bangladesh</p>
+                  <p>Think Solutionz, University Road
+                   Block 13 A Gulshan-e-Iqbal, Karachi</p>
                 </div>
               </li>
             </ul>
@@ -80,12 +80,11 @@ export default function Footer() {
       <div className="bg-light py-3 text-center">
         <p>
           Copyright &copy; 2021 &nbsp;
-          <span style={{ color: "#feb000", fontWeight: "600" }}>
-            Wali Ullah
+          <span style={{ color: "#F15927", fontWeight: "600" }}>
+            ThinkSolutionz
           </span>
           &nbsp; All Rights Reserved
         </p>
-        <p className="p-0 m-0">Developed By Wali Ullah</p>
       </div>
     </>
   );

@@ -8,6 +8,24 @@
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
-  background: #feb000;
+  background: #F15927;
   color: white !important;
+}
+
+.buttonHire:hover{
+  background: #ec693d;
+  
+}
+
+
+.btn-outline-warning:not(:disabled):not(.disabled).active, .btn-outline-warning:not(:disabled):not(.disabled):active, .show>.btn-outline-warning.dropdown-toggle {
+  color: #212529;
+  background-color: #f15927 !important;
+  border-color: #f15927 !important;
+}
+
+.btn-outline-warning:not(:disabled):not(.disabled).active, .btn-outline-warning:not(:disabled):not(.disabled):active, .show>.btn-outline-warning.dropdown-toggle{
+  color: #212529;
+  background-color: #f15927 !important;
+  border-color: #f15927 !important;
 }

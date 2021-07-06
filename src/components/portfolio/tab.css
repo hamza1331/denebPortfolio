@@ -1,7 +1,7 @@
 .portfolio .nav-tabs .nav-item.show .nav-link,
 .portfolio .nav-tabs .nav-link.active {
-  /* border: 3px #feb000 !important; */
-  background: #feb000 !important;
+  border: 3px #F15927 !important;
+  background: #F15927 !important;
   color: white !important;
 }
 .portfolio .nav-tabs .nav-item.show .nav-link,
@@ -33,3 +33,4 @@
 .portfolio .nav-tabs a.nav-link {
   color: black;
 }
+

@@ -1,0 +1,44 @@
+.cta .cta_wrapper {
+    padding: 45px 50px 42px;
+    max-width: 970px;
+    border-radius: 15px;
+    margin: auto auto -135px;
+    position: relative;
+    background-image: -ms-linear-gradient(0deg,#ec693d 0,#F15927 100%);
+    background-color: #F15927;
+    box-shadow: 2.5px 4.33px 15px 0 rgb(254 176 0 / 40%);
+    z-index: 1;
+    margin: 50px 0;
+    margin-left: 50px;
+}
+.cta_wrapper .cta_content h3 {
+    color: #fff;
+    font-weight: 700;
+}
+.cta_wrapper .cta_content p {
+    color: #fff;
+}
+.cta_wrapper .button_box {
+    float: right;
+}
+.cta_btn {
+    display: inline-block;
+    min-width: 127px;
+    height: 45px;
+    color: #fff;
+    font: 500 15px "Poppins",sans-serif;
+    text-align: center;
+    background: #F15927;
+    line-height: 45px;
+    border-radius: 23px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+.cta .cta_wrapper .button_box .cta_btn {
+    background: #fff;
+    color: #011a3e;
+}
+.cta .cta_wrapper .button_box .cta_btn:focus, .cta .cta_wrapper .button_box .cta_btn:hover {
+    box-shadow: 2.5px 4.33px 15px 0 rgb(0 0 0 / 15%);
+}

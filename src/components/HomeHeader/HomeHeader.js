@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import image1 from "../../assets/images/home-image.png";
+// import image1 from "../../assets/images/home-image.png";
+// import image1 from "../../assets/images/bg_1.png";
+import image1 from "../../assets/images/home-gif.gif";
 import styles from "./HomeHeader.module.css";
 export default function HomeHeader() {
   return (
@@ -15,7 +17,7 @@ export default function HomeHeader() {
             Let Know Our Expert Skills Curabitur libero eros, efficitur sit amet
             sodales tincidunt, aliquet et leo. Sed ut nibh feugiat, auctor enim
           </p>
-          <button className={styles.buttonHire}>Hire Me</button>
+          <button className={styles.buttonHire}>Hire Us</button>
         </Col>
         <Col className="col-lg-7 col-12">
           <img src={image1} alt="home" className="img-fluid" />

@@ -14,21 +14,21 @@
   text-decoration: none;
 }
 .uL li a:hover {
-  color: #feb000;
+  color: #F15927;
 }
 .uL p {
   padding: 0;
   margin: 0;
 }
 .uL li i {
-  color: #feb000;
+  color: #F15927;
   /* font-size: 20px; */
   padding-right: 15px;
 }
 .icon i {
   /*padding: 20px;
   */
-  color: #feb000;
+  color: #F15927;
   margin: 10px;
   width: 30px;
   height: 30px;

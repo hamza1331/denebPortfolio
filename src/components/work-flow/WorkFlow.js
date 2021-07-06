@@ -1,9 +1,12 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import WorkFlowSingle from "./WorkFlowSingle";
-import image1 from "../../assets/images/service-w-shape1.png";
-import image2 from "../../assets/images/service-w-shape2.png";
-import image3 from "../../assets/images/service-w-shape3.png";
+// import image1 from "../../assets/images/service-w-shape1.png";
+// import image2 from "../../assets/images/service-w-shape2.png";
+// import image3 from "../../assets/images/service-w-shape3.png";
+import image1 from "../../assets/images/service1.png";
+import image2 from "../../assets/images/service2.png";
+import image3 from "../../assets/images/service3.png";
 import icon1 from "../../assets/images/analysis-icon.png";
 import icon2 from "../../assets/images/development-icon.png";
 import icon3 from "../../assets/images/rocket-icon.png";

@@ -12,7 +12,7 @@ const experienceArray = [
   {
     id: "1",
     order: true,
-    name: "Wali Ullah",
+    // name: "Wali Ullah",
     category: "Web Design",
     description: description,
     duration: "January 2020 - February 2021",
@@ -20,7 +20,7 @@ const experienceArray = [
   {
     id: "2",
     order: false,
-    name: "Wali Ullah",
+    // name: "Wali Ullah",
     category: "Web Development",
     description: description,
     duration: "January 2020 - February 2021",
@@ -28,8 +28,8 @@ const experienceArray = [
   {
     id: "3",
     order: true,
-    name: "Wali Ullah",
-    category: "Web Design",
+    // name: "Wali Ullah",
+    category: "Mobile Development",
     description: description,
     duration: "January 2020 - February 2021",
   },
