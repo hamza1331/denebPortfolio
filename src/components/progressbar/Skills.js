@@ -27,10 +27,8 @@ const ProgressTitleAndPercent = [
   },
 ];
 const title = `Let Know Our Expert Skills`;
-const text = ` Let Know Our Expert Skills Curabitur libero eros, efficitur sit amet
-sodales tincidunt, aliquet et leo. Sed ut nibh feugiat, auctor enim
-quis, hendrerit ipsum. Aenean blandit lacinia suscipit. Nunc ut
-tincidunt massa, eu semper lacus.`;
+const text = ` 
+Our core competency is the design and development of web-based solutions and mobile applications. We have a proven track record to meet inhuman deadlines and our motto is to deliver quality work at a lightning pace without exceeding the budget. ThinkSolutionz has a clientele of complex projects ranging from Mobile app, WordPress solutions to video editing and animation.`;
 export default function Skills() {
   return (
     <Container>

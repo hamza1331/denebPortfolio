@@ -2,10 +2,7 @@ import React from "react";
 import "./stats.css";
 import { Container, Row, Col } from "react-bootstrap";
 import SectionTitle from "../section-title/SectionTitle";
-const text = `Orci varius natoque penatibus et magnis dis parturient montes,
-nascetur ridiculus mus. Phasellus at orci non risus luctus
-commodo. Ut nibh tellus, faucibus nec gravida.Duis quis ipsum leo. Praesent vitae tellus ac ante porta mattis
-vel non ex. Quisque a finibus justo.`;
+const text = `ThinkSolutionz has a clientele of complex projects ranging from Mobile app, WordPress solutions to video editing and animation.`;
 const Stats = () => {
   return (
     <section className="achievement section_padding">
@@ -14,7 +11,7 @@ const Stats = () => {
           <Col className="col-lg-6 wow fadeInLeft">
            
             <SectionTitle
-              title="Over 500+ Completed work &amp; Still Counting "
+              title="Over 300+ Completed work &amp; Still Counting "
               description={text}
               className="text-left"
             />
@@ -40,8 +37,8 @@ const Stats = () => {
                     alt=""
                   />
                 </div>
-                <h3>300+</h3>
-                <p>Projects Done</p>
+                <h3>100+</h3>
+                <p>Projects</p>
               </div>
               <div class="single_achievement wow fadeInUp" data-wow-delay=".1s">
                 <div class="icon">
@@ -51,8 +48,8 @@ const Stats = () => {
                     alt=""
                   />
                 </div>
-                <h3>250+</h3>
-                <p>Projects Done</p>
+                <h3>100+</h3>
+                <p>Satisfied Clients</p>
               </div>
               <div class="single_achievement wow fadeInUp" data-wow-delay=".2s">
                 <div class="icon">
@@ -62,7 +59,7 @@ const Stats = () => {
                     alt=""
                   />
                 </div>
-                <h3>200+</h3>
+                <h3>20+</h3>
                 <p>Active Projects</p>
               </div>
               <div class="single_achievement wow fadeInUp" data-wow-delay=".3s">
@@ -73,7 +70,7 @@ const Stats = () => {
                     alt=""
                   />
                 </div>
-                <h3>5+</h3>
+                <h3>3+</h3>
                 <p>Years Exerience</p>
               </div>
             </div>

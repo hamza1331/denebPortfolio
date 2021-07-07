@@ -8,8 +8,8 @@
     background-color: #F15927;
     box-shadow: 2.5px 4.33px 15px 0 rgb(254 176 0 / 40%);
     z-index: 1;
-    margin: 50px 0;
-    margin-left: 50px;
+    margin: 50px auto;
+    /* margin-left: 50px; */
 }
 .cta_wrapper .cta_content h3 {
     color: #fff;

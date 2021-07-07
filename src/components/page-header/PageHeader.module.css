@@ -1,15 +1,14 @@
 .bg {
-  background-image: url(../../assets/images/bg1.jpg);
-  /* background: linear-gradient(
+  /* background-image: url(../../assets/images/banner2.jpg); */
+  background: linear-gradient(
       0deg,
-      rgb(255 255 255 / 0%),
-      rgb(255 255 255 / 80%)
+      rgb(255 255 255 / 86%),
+      rgb(255 255 255 / 90%)
     ),
-    url(../../assets/images/bg1.jpg); */
+    url(../../assets/images/banner2.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position-y: -100px;
-
+  /* background-position-y: -150px; */
 }
 .h2Padding h2 {
   font-size: 7vmin;
@@ -18,7 +17,7 @@
   margin: 0;
 }
 .h2Padding {
-  padding: 100px 0;
+  padding: 100px 0 !important;
 }
 .h2Padding i {
   color: #f15927;
@@ -28,4 +27,12 @@
   text-decoration: none;
 
   text-transform: uppercase;
+}
+@media (min-width: 280px) and (max-width: 768px) {
+  .h2Padding {
+    padding: 0px ;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+ 
 }

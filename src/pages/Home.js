@@ -9,18 +9,32 @@ import Testimonial from "../components/testimonials/Testimonial";
 import HomeHeader from "../components/HomeHeader/HomeHeader";
 import Menu from "../components/navbar/Menu";
 import Cta from "../components/cta/Cta";
+import Watsapp from "../components/cta/watsapp";
+
+
+import Particles from "react-particles-js";
+import particle from "../particlesjs-config.json";
 
 export default function Home() {
   return (
     <Container>
       <Menu />
+      <Particles
+        params={particle}
+        width={"80%"}
+        height={"660%"}
+        style={{ position: "absolute",zIndex:"-1"}
+        
+      }/>
       <HomeHeader />
       <ServiceHome />
       <Portfolio />
-      {/* <Pricing /> */}
-      <Stats/>
+      <Stats />
       <Testimonial />
-      <Cta/>
+      <Watsapp />
+      <Cta />
+      
+      {/* <Pricing /> */}
       {/* <BlogHome /> */}
     </Container>
   );

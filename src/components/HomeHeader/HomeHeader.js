@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 // import image1 from "../../assets/images/bg_1.png";
 import image1 from "../../assets/images/home-gif.gif";
 import styles from "./HomeHeader.module.css";
+
 export default function HomeHeader() {
   return (
     <Container>
@@ -12,10 +13,16 @@ export default function HomeHeader() {
           <h1 className={styles.h1}>
             We are Creative<br></br> <span> Dev Agency</span>
           </h1>
-          <h4 className={styles.h4}>I am professional freelance Web Designer</h4>
+          {/* <h4 className={styles.h4}>
+            I am professional freelance Web Designer
+          </h4> */}
           <p>
-            Let Know Our Expert Skills Curabitur libero eros, efficitur sit amet
-            sodales tincidunt, aliquet et leo. Sed ut nibh feugiat, auctor enim
+            Our core competency is the design and development of web-based
+            solutions and mobile applications. We have a proven track record to
+            meet inhuman deadlines and our motto is to deliver quality work at a
+            lightning pace without exceeding the budget. ThinkSolut!onz has a
+            clientele of complex projects ranging from Mobile app, WordPress
+            solutions to video editing and animation.
           </p>
           <button className={styles.buttonHire}>Hire Us</button>
         </Col>

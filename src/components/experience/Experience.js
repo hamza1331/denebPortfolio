@@ -19,7 +19,7 @@ export default function Experience({
           </div>
         </div>
         <div
-          className={`col-md-2 ${id === "3" ? `${styles.removeDotLine}` : ""}`}
+          className={`col-md-2 ${id === "6" ? `${styles.removeDotLine}` : ""}`}
         >
           <div className={styles.icon}>
             <h3>{id}</h3>

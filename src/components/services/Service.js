@@ -1,57 +1,61 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import { Row, Container, Tabs, Tab } from "react-bootstrap";
-import image1 from "../../assets/images/diamond-icon.png";
-import image2 from "../../assets/images/editor-icon.png";
-import image3 from "../../assets/images/bulb-icon.png";
-import webDev from "../../assets/images/development-icon.png";
-import analysis from "../../assets/images/analysis-icon.png";
-import rocket from "../../assets/images/rocket-icon.png";
+import uiux from "../../assets/images/diamond-icon.png";
+import wordpress from "../../assets/images/editor-icon.png";
+// import webDev from "../../assets/images/development-icon.png";
+import webDev from "../../assets/images/webDev.png";
+import graphic from "../../assets/images/bulb-icon.png";
+// import video from "../../assets/images/analysis-icon.png";
+import video from "../../assets/images/video-editing.png";
+import mobileApp from "../../assets/images/mobile-app.png";
+// import rocket from "../../assets/images/rocket.png";
+// import rocket from "../../assets/images/rocket-icon.png";
 
 import "./tab.css";
-import WebDesign from "./WebDesign";
+import UiUx from "./UiUx";
 import WebDevelopment from "./WebDevelopment";
-import StrategyAndResearch from "./StrategyAndResearch";
-import AppDesign from "./AppDesign";
-import DigitalMarketing from "./DigitalMarketing";
-import BusinessAnalytics from "./BusinessAnalytics";
+import Wordpress from "./Wordpress";
+import AppDevelopment from "./AppDevelopment";
+import VideoEditing from "./VideoEditing";
+import GraphicDesign from "./GraphicDesign";
 
 const serviceAll = [
   {
     id: "1",
-    title: "web design",
-    imageSrc: image1,
-    panel: <WebDesign />,
+    title: "UI/UX",
+    imageSrc: uiux,
+    panel: <UiUx />,
   },
   {
     id: "2",
-    title: "Strategy & Research",
-    imageSrc: image2,
-    panel: <StrategyAndResearch />,
+    title: "Wordpress",
+    imageSrc: wordpress,
+    panel: <Wordpress />,
   },
   {
     id: "3",
-    title: "web Development",
+    title: "Web App",
     imageSrc: webDev,
     panel: <WebDevelopment />,
   },
   {
     id: "4",
-    title: "App Design",
-    imageSrc: rocket,
-    panel: <AppDesign />,
+    title: "Mobile App",
+    imageSrc: mobileApp,
+    panel: <AppDevelopment />,
   },
   {
     id: "5",
-    title: "Digital Marketing",
-    imageSrc: analysis,
-    panel: <DigitalMarketing />,
+    title: "Video Editing",
+    imageSrc: video,
+    panel: <VideoEditing />,
   },
   {
     id: "6",
-    title: "Business Analysis",
-    imageSrc: image3,
-    panel: <BusinessAnalytics />,
+    title: "Graphic",
+    panel: <GraphicDesign />,
+    imageSrc: graphic,
   },
 ];
 

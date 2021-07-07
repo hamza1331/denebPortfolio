@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Tabs, Tab } from "react-bootstrap";
-import Branding from "./Branding";
-import WebDesign from "./WebDesign";
+import Graphic from "./Graphic";
+import AppDevelopment from "./AppDevelopment";
 import WebDevelopment from "./WebDevelopment";
 import "./tab.css";
 import SectionTitle from "../section-title/SectionTitle";
-const text = `Aliquam sollicitudin consequat commodo. Cras bibendum ipsum eu  tristique`;
+const text = `Take a glimpse of our website, mobile app and graphics work and #ReThink your next idea with us.
+`;
 export default function Portfolio() {
   return (
     <Container className="portfolio">
@@ -20,14 +21,14 @@ export default function Portfolio() {
         id="portfolio"
         className="d-flex align-items-center justify-content-center "
       >
-        <Tab eventKey="web-design" title="Web Design">
-          <WebDesign />
+        <Tab eventKey="web-design" title="App Development">
+          <AppDevelopment />
         </Tab>
         <Tab eventKey="web-development" title="Web Development">
           <WebDevelopment />
         </Tab>
-        <Tab eventKey="branding" title="Branding">
-          <Branding />
+        <Tab eventKey="branding" title="Graphic">
+          <Graphic />
         </Tab>
       </Tabs>
     </Container>

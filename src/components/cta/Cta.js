@@ -12,8 +12,7 @@ const Cta = () => {
               <div className="cta_content">
                 <h3>Have Any Project in Mind ?</h3>
                 <p>
-                  Curabitur libero eros, efficitur sit amet sodales tincidunt,
-                  aliquet et leo sed ut nibh feugiat, auctor enim quis.
+                Lets Discuss your next big Product now!
                 </p>
               </div>
             </div>

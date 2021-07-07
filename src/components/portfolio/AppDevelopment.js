@@ -1,30 +1,15 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import image1 from "../../assets/images/portfolio/web1.jpg";
-import image2 from "../../assets/images/portfolio/web2.jpg";
-import image3 from "../../assets/images/portfolio/web3.jpg";
+import image1 from "../../assets/images/portfolio/mobile1.jpg";
+import image2 from "../../assets/images/portfolio/mobile2.jpg";
+import image3 from "../../assets/images/portfolio/mobile3.jpg";
 import WebDesignCard from "./WebDesignCard";
 const CardDetails = [
-  {
-    id: "1",
-    imageSrc: image1,
-    title: `Myers Website`,
-    text: `Development`,
-  },
-  {
-    id: "2",
-    imageSrc: image2,
-    title: `Grocery Supermarket Website`,
-    text: `Development`,
-  },
-  {
-    id: "3",
-    imageSrc: image3,
-    title: `Mechfinder Website`,
-    text: `Development`,
-  },
+  { id: "1", imageSrc: image1, title: `Ebook Gala App`, text: `Development` },
+  { id: "2", imageSrc: image2, title: `Mechfinder App`, text: `Development` },
+  { id: "3", imageSrc: image3, title: `My Shift App`, text: `Development` },
 ];
-export default function WebDevelopment() {
+export default function AppDevelopment() {
   return (
     <Container>
       <Row className="d-flex justify-content-center align-items-center">

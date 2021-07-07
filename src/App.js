@@ -9,6 +9,7 @@ import ContactUs from "./pages/ContactUs";
 import BlogDetails from "./pages/BlogDetailsPage";
 import GetInTouch from "./components/contact/GetInTouch";
 import Footer from "./components/footer/Footer";
+
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
         <Route path="/blogs/:id" component={BlogDetails} exact />
         <GetInTouch />
         <Footer />
+        
       </Router>
     </>
   );
