@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import styles from "./WorkFlow.module.css";
-
+import "../experience/experience.css"
 export default function WorkFlowSingle({
   imageSrc,
   title,
@@ -11,7 +11,7 @@ export default function WorkFlowSingle({
 }) {
   return (
     <Row className="my-3 d-flex justify-content-center align-items-center ">
-      <Col className={`col-12 col-md-6 order-${order ? "first" : "last"}`}>
+      <Col className={`col-12 col-md-6 order-${order ? "first" : "last order0"}`}>
         <img src={imageSrc} alt="service 1" className="img-fluid" />
       </Col>
       <Col className={`col-12 col-md-6 text-${order ? "right" : "left"}`}>

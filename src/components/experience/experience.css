@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .order0{
+        order:0
+    }
+    .order1 {
+      order: 1 !important;
+  }
+  .order2{
+      order:2 !important
+  }
+  .order3 {
+      /* order: 13; */
+      order: 3 !important;
+  }
+  }
