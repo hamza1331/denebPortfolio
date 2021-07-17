@@ -1,17 +1,18 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import PageHeader from "../components/page-header/PageHeader";
-import Watsapp from "../components/cta/watsapp";
+import React, { Suspense, lazy } from "react";
+import { Container, Row, Col, Spinner } from "react-bootstrap";
 
 import Particles from "react-particles-js";
 import particle from "../particlesjs-config.json";
+
+const PageHeader = lazy(() => import("../components/page-header/PageHeader"));
+const Watsapp = lazy(() => import("../components/cta/watsapp"));
 
 // import Contact from "../components/contact/Contact";
 // import SectionTitle from "../components/section-title/SectionTitle";
 // const title = `Send Us Message`;
 export default function ContactUs() {
   return (
-    <>
+    <Suspense fallback={<Spinner animation="grow" variant="warning" />}>
       <PageHeader title="Contact Us" />
       <Particles
         params={particle}
@@ -26,7 +27,7 @@ export default function ContactUs() {
         </Col>
       </Row> */}
       <Container>
-        <Watsapp/>
+        <Watsapp />
         <Row>
           <Col className="col-12">
             <iframe
@@ -43,6 +44,6 @@ export default function ContactUs() {
           </Col>
         </Row>
       </Container>
-    </>
+    </Suspense>
   );
 }

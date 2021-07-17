@@ -48,7 +48,6 @@ export default function Contact() {
         setError(false);
       
     } else {
-      console.log("values not filled");
       setError(true);
       setFormData(null);
     }
@@ -128,9 +127,7 @@ export default function Contact() {
           />
         </Col>
       </Row>
-      {/* <Button variant="warning" className="my-3 px-5 py-2 btn_submit">
-        Submit
-      </Button> */}
+    
       <button
         type="submit"
         style={{ lineHeight: "0px" }}

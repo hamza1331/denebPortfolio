@@ -3,12 +3,12 @@ import React from "react";
 import { Row, Container, Tabs, Tab } from "react-bootstrap";
 import uiux from "../../assets/images/diamond-icon.png";
 import wordpress from "../../assets/images/editor-icon.png";
-// import webDev from "../../assets/images/development-icon.png";
 import webDev from "../../assets/images/webDev.png";
 import graphic from "../../assets/images/bulb-icon.png";
-// import video from "../../assets/images/analysis-icon.png";
 import video from "../../assets/images/video-editing.png";
 import mobileApp from "../../assets/images/mobile-app.png";
+// import webDev from "../../assets/images/development-icon.png";
+// import video from "../../assets/images/analysis-icon.png";
 // import rocket from "../../assets/images/rocket.png";
 // import rocket from "../../assets/images/rocket-icon.png";
 

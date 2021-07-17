@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import image3 from "../../assets/images/woman2.jpg";
+import image3 from "../../assets/images/woman.jpg";
 import ServiceCard from "./ServiceCard";
 
 const title = `UI/UX Design`;

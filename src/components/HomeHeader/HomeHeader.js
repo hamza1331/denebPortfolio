@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import image1 from "../../assets/images/home-image.png";
-// import image1 from "../../assets/images/bg_1.png";
-import image1 from "../../assets/images/home-gif.gif";
+import image1 from "../../assets/images/homeGif.webp";
 import styles from "./HomeHeader.module.css";
 
 export default function HomeHeader() {
