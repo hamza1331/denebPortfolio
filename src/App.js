@@ -1,31 +1,32 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Services from "./pages/Services";
-import Home from "./pages/Home";
-import AboutUs from "./pages/AboutUs";
-import Portfolio from "./pages/Portfolio";
-import Blogs from "./pages/BlogPage";
-import ContactUs from "./pages/ContactUs";
-import BlogDetails from "./pages/BlogDetailsPage";
-import GetInTouch from "./components/contact/GetInTouch";
-import Footer from "./components/footer/Footer";
+
+import { Spinner } from "react-bootstrap";
+
+const Home = lazy(() => import("./pages/Home"));
+const Services = lazy(() => import("./pages/Services"));
+const AboutUs = lazy(() => import("./pages/AboutUs"));
+const Portfolio = lazy(() => import("./pages/Portfolio"));
+const ContactUs = lazy(() => import("./pages/ContactUs"));
+const GetInTouch = lazy(() => import("./components/contact/GetInTouch"));
+const Footer = lazy(() => import("./components/footer/Footer"));
 
 function App() {
   return (
-    <>
+    <Suspense fallback={<Spinner animation="grow" variant="warning" />}>
       <Router>
         <Route path="/" component={Home} exact />
         <Route path="/about" component={AboutUs} exact />
         <Route path="/services" component={Services} exact />
-        <Route path="/blogs" component={Blogs} exact />
+        {/* <Route path="/blogs" component={Blogs} exact /> */}
         <Route path="/contact" component={ContactUs} exact />
         <Route path="/Portfolio" component={Portfolio} exact />
-        <Route path="/blogs/:id" component={BlogDetails} exact />
+        {/* <Route path="/blogs/:id" component={BlogDetails} exact /> */}
         <GetInTouch />
         <Footer />
-        
       </Router>
-    </>
+    </Suspense>
   );
 }
 
