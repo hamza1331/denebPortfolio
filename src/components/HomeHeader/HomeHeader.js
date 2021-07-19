@@ -26,7 +26,7 @@ function HomeHeader() {
         </Col>
         <Col className="col-lg-7 col-12">
         
-          <video loop autoPlay width="100%" height="auto">
+          <video autoPlay width="100%" height="auto" loop muted>
             <source src={homeGif} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>

@@ -24,7 +24,7 @@ export default function Home() {
         <Particles
           params={particle}
           width={"80%"}
-          height={"660%"}
+          height={"660vh"}
           style={{ position: "absolute", zIndex: "-1" }}
         />
         

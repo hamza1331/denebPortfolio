@@ -1,9 +1,20 @@
 import React from "react";
-import infinity from "../assets/Infinity.svg"
+import infinity from "../assets/Infinity.svg";
 
+const styles = {
+  container: {
+    height: "100vh",
+    width: "100%",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+};
 const Spinner = () => {
   return (
-    <img src={infinity} alt="spinner" />
+    <div style={styles.container}>
+      <img src={infinity} alt="spinner" />
+    </div>
   );
 };
 

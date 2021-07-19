@@ -89,7 +89,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <p>
-                    Think Solutionz, University Road Block 13 A Gulshan-e-Iqbal,
+                    Suite#308,Master Square, University Rd, adjacent to Usmania Restaurant, Block 13 A Gulshan-e-Iqbal,
                     Karachi
                   </p>
                 </div>

@@ -19,9 +19,9 @@ function App() {
         <Route path="/" component={Home} exact />
         <Route path="/about" component={AboutUs} exact />
         <Route path="/services" component={Services} exact />
-        {/* <Route path="/blogs" component={Blogs} exact /> */}
         <Route path="/contact" component={ContactUs} exact />
         <Route path="/Portfolio" component={Portfolio} exact />
+        {/* <Route path="/blogs" component={Blogs} exact /> */}
         {/* <Route path="/blogs/:id" component={BlogDetails} exact /> */}
         <GetInTouch />
         <Footer />
