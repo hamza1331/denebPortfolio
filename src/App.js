@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import { Spinner } from "react-bootstrap";
+import Spinner from "./components/Spinner";
 
 const Home = lazy(() => import("./pages/Home"));
 const Services = lazy(() => import("./pages/Services"));
@@ -14,7 +14,7 @@ const Footer = lazy(() => import("./components/footer/Footer"));
 
 function App() {
   return (
-    <Suspense fallback={<Spinner animation="grow" variant="warning" />}>
+    <Suspense fallback={<Spinner />}>
       <Router>
         <Route path="/" component={Home} exact />
         <Route path="/about" component={AboutUs} exact />

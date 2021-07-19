@@ -1,4 +1,4 @@
-import React from "react";
+import React,{memo} from "react";
 import { Container, Tabs, Tab } from "react-bootstrap";
 import Graphic from "./Graphic";
 import AppDevelopment from "./AppDevelopment";
@@ -7,7 +7,7 @@ import "./tab.css";
 import SectionTitle from "../section-title/SectionTitle";
 const text = `Take a glimpse of our website, mobile app and graphics work and #ReThink your next idea with us.
 `;
-export default function Portfolio() {
+function Portfolio() {
   return (
     <Container className="portfolio">
       <SectionTitle
@@ -34,3 +34,4 @@ export default function Portfolio() {
     </Container>
   );
 }
+export default memo(Portfolio);

@@ -1,5 +1,5 @@
-import React, { Suspense, lazy } from "react";
-import { Spinner } from "react-bootstrap";
+import React, { Suspense, lazy,memo } from "react";
+import Spinner  from "../components/Spinner";
 
 import Particles from "react-particles-js";
 import particle from "../particlesjs-config.json";
@@ -7,9 +7,9 @@ import particle from "../particlesjs-config.json";
 const Portfolios = lazy(() => import("../components/portfolio/Portfolio"));
 const PageHeader = lazy(() => import("../components/page-header/PageHeader"));
 
-export default function Portfolio() {
+function Portfolio() {
   return (
-    <Suspense fallback={<Spinner animation="grow" variant="warning" />}>
+    <Suspense fallback={<Spinner />}>
       <PageHeader title="Portfolios" />
       <Particles
         params={particle}
@@ -22,3 +22,4 @@ export default function Portfolio() {
     </Suspense>
   );
 }
+export default memo(Portfolio);

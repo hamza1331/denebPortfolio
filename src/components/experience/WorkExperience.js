@@ -68,7 +68,7 @@ export default function WorkExperience() {
       <SectionTitle title={title} description={text} className="text-center" />
       <Row className="py-5">
         {experienceArray.map((ex) => (
-          <Col className="col-12">
+          <Col className="col-12" key={ex.id}>
             <Experience
               id={ex.id}
               name={ex.name}

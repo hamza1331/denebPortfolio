@@ -1,4 +1,4 @@
-import React from "react";
+import React,{memo} from "react";
 import "./cta.css"
 import {Link} from 'react-router-dom'
 import { Container } from "react-bootstrap";
@@ -30,4 +30,4 @@ const Cta = () => {
   );
 };
 
-export default Cta;
+export default memo(Cta);

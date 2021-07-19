@@ -1,9 +1,9 @@
-import React from "react";
+import React,{memo} from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import image1 from "../../assets/images/homeGif.webp";
+import homeGif from "../../assets/images/homeGif.mp4";
 import styles from "./HomeHeader.module.css";
 
-export default function HomeHeader() {
+function HomeHeader() {
   return (
     <Container>
       <Row className="d-flex align-items-center">
@@ -25,9 +25,14 @@ export default function HomeHeader() {
           <button className={styles.buttonHire}>Hire Us</button>
         </Col>
         <Col className="col-lg-7 col-12">
-          <img src={image1} alt="home" className="img-fluid" />
+        
+          <video loop autoPlay width="100%" height="auto">
+            <source src={homeGif} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
         </Col>
       </Row>
     </Container>
   );
 }
+export default memo(HomeHeader);

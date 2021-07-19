@@ -1,5 +1,6 @@
-import React, { Suspense, lazy } from "react";
-import { Container, Row, Col, Spinner } from "react-bootstrap";
+import React, { Suspense, lazy,memo } from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import Spinner  from "../components/Spinner";
 
 import Particles from "react-particles-js";
 import particle from "../particlesjs-config.json";
@@ -10,9 +11,9 @@ const Watsapp = lazy(() => import("../components/cta/watsapp"));
 // import Contact from "../components/contact/Contact";
 // import SectionTitle from "../components/section-title/SectionTitle";
 // const title = `Send Us Message`;
-export default function ContactUs() {
+function ContactUs() {
   return (
-    <Suspense fallback={<Spinner animation="grow" variant="warning" />}>
+    <Suspense fallback={<Spinner />}>
       <PageHeader title="Contact Us" />
       <Particles
         params={particle}
@@ -47,3 +48,5 @@ export default function ContactUs() {
     </Suspense>
   );
 }
+
+export default memo(ContactUs);

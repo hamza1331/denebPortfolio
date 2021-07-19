@@ -1,4 +1,4 @@
-import React from "react";
+import React,{memo} from "react";
 import { Row, Col } from "react-bootstrap";
 import ServiceHomeCard from "./ServiceHomeCard";
 import image1 from "../../assets/images/diamond-icon.png";
@@ -56,7 +56,7 @@ const serviceCardArray = [
     buttonText: `Read More`,
   },
 ];
-export default function ServiceHome() {
+function ServiceHome() {
   return (
     <>
       <SectionTitle
@@ -79,3 +79,4 @@ export default function ServiceHome() {
     </>
   );
 }
+export default memo(ServiceHome);

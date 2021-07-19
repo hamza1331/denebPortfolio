@@ -17,20 +17,24 @@
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"
+      defer
     />
     <script
       src="https://unpkg.com/react/umd/react.production.min.js"
       crossorigin
+      defer
     ></script>
 
     <script
       src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
       crossorigin
+      defer
     ></script>
 
     <script
       src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
       crossorigin
+      defer
     ></script>
 
     <!--
@@ -62,7 +66,7 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script>
+    <script defer>
       document.onkeydown = function (e) {
         if (event.keyCode == 123) {
           return false;

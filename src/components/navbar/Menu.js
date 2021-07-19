@@ -1,11 +1,11 @@
-import React from "react";
+import React,{memo} from "react";
 import { Link } from "react-router-dom";
 
 import { Container, Navbar, Nav } from "react-bootstrap";
 import logo from "../../assets/images/logo.png";
 import "./Navbar.css";
 import styles from "./Menu.module.css";
-export default function Menu() {
+function Menu() {
   return (
     <Navbar expand="lg" className="py-4 pb-5">
       <Container>
@@ -52,3 +52,4 @@ export default function Menu() {
     </Navbar>
   );
 }
+export default memo(Menu);

@@ -1,5 +1,6 @@
-import React, { Suspense, lazy } from "react";
-import { Container, Spinner } from "react-bootstrap";
+import React, { Suspense, lazy,memo } from "react";
+import { Container } from "react-bootstrap";
+import Spinner from "../components/Spinner";
 
 import Particles from "react-particles-js";
 import particle from "../particlesjs-config.json";
@@ -8,9 +9,9 @@ const WorkFlow = lazy(() => import("../components/work-flow/WorkFlow"));
 const Service = lazy(() => import("../components/services/Service"));
 const PageHeader = lazy(() => import("../components/page-header/PageHeader"));
 
-export default function Services() {
+function Services() {
   return (
-    <Suspense fallback={<Spinner animation="grow" variant="warning" />}>
+    <Suspense fallback={<Spinner />}>
       <PageHeader title="Our Services" />
       <Particles
         params={particle}
@@ -25,3 +26,4 @@ export default function Services() {
     </Suspense>
   );
 }
+export default memo(Services);
